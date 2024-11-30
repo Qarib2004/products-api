@@ -2,31 +2,31 @@
   "books": [
     {
       "id": "1",
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "genre": "Classic",
-      "publishedYear": 1925
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publishedYear": 1937
     },
     {
       "id": "2",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "genre": "Historical Fiction",
-      "publishedYear": 1960
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Science Fiction",
+      "publishedYear": 1965
     },
     {
       "id": "3",
-      "title": "1984",
-      "author": "George Orwell",
-      "genre": "Dystopian",
-      "publishedYear": 1949
+      "title": "Romeo and Juliet",
+      "author": "William Shakespeare",
+      "genre": "Drama",
+      "publishedYear": 1597
     },
     {
       "id": "4",
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "genre": "Classic",
-      "publishedYear": 1951
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery",
+      "publishedYear": 2003
     },
     {
       "id": "5",
@@ -37,38 +37,38 @@
     },
     {
       "id": "6",
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "publishedYear": 1937
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "genre": "Thriller",
+      "publishedYear": 2012
     },
     {
       "id": "7",
-      "title": "Moby-Dick",
-      "author": "Herman Melville",
-      "genre": "Adventure",
-      "publishedYear": 1851
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publishedYear": 1954
     },
     {
       "id": "8",
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "genre": "Historical Fiction",
-      "publishedYear": 1869
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "genre": "Science Fiction",
+      "publishedYear": 1984
     },
     {
       "id": "9",
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "genre": "Psychological Fiction",
-      "publishedYear": 1866
+      "title": "Macbeth",
+      "author": "William Shakespeare",
+      "genre": "Drama",
+      "publishedYear": 1606
     },
     {
       "id": "10",
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "genre": "Dystopian",
-      "publishedYear": 1932
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "genre": "Mystery",
+      "publishedYear": 2005
     }
   ]
 }
