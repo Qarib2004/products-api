@@ -1,124 +1,74 @@
 {
-    "products": [
-      {
-        "id": "1",
-        "name": "Laptop",
-        "price": 1000,
-        "isDiscounted": false
-      },
-      {
-        "id": "2",
-        "name": "Smartphone",
-        "price": 500,
-        "isDiscounted": true
-      },
-      {
-        "id": "3",
-        "name": "Tablet",
-        "price": 300,
-        "isDiscounted": false
-      },
-      {
-        "id": "4",
-        "name": "Smartwatch",
-        "price": 200,
-        "isDiscounted": true
-      },
-      {
-        "id": "5",
-        "name": "Camera",
-        "price": 600,
-        "isDiscounted": false
-      },
-      {
-        "id": "6",
-        "name": "Headphones",
-        "price": 150,
-        "isDiscounted": true
-      },
-      {
-        "id": "7",
-        "name": "Keyboard",
-        "price": 50,
-        "isDiscounted": false
-      },
-      {
-        "id": "8",
-        "name": "Mouse",
-        "price": 40,
-        "isDiscounted": true
-      },
-      {
-        "id": "9",
-        "name": "Monitor",
-        "price": 250,
-        "isDiscounted": false
-      },
-      {
-        "id": "10",
-        "name": "Printer",
-        "price": 300,
-        "isDiscounted": true
-      },
-      {
-        "id": "11",
-        "name": "Speakers",
-        "price": 100,
-        "isDiscounted": false
-      },
-      {
-        "id": "12",
-        "name": "Webcam",
-        "price": 75,
-        "isDiscounted": true
-      },
-      {
-        "id": "13",
-        "name": "Router",
-        "price": 120,
-        "isDiscounted": false
-      },
-      {
-        "id": "14",
-        "name": "External Hard Drive",
-        "price": 90,
-        "isDiscounted": true
-      },
-      {
-        "id": "15",
-        "name": "Flash Drive",
-        "price": 30,
-        "isDiscounted": false
-      },
-      {
-        "id": "16",
-        "name": "SSD",
-        "price": 150,
-        "isDiscounted": true
-      },
-      {
-        "id": "17",
-        "name": "Graphics Card",
-        "price": 400,
-        "isDiscounted": false
-      },
-      {
-        "id": "18",
-        "name": "Motherboard",
-        "price": 350,
-        "isDiscounted": true
-      },
-      {
-        "id": "19",
-        "name": "Processor",
-        "price": 500,
-        "isDiscounted": false
-      },
-      {
-        "id": "20",
-        "name": "Power Supply",
-        "price": 100,
-        "isDiscounted": true
-      }
-    ]
-  }
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "publishedYear": 1925
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Historical Fiction",
+      "publishedYear": 1960
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "publishedYear": 1949
+    },
+    {
+      "id": "4",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Classic",
+      "publishedYear": 1951
+    },
+    {
+      "id": "5",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "publishedYear": 1813
+    },
+    {
+      "id": "6",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publishedYear": 1937
+    },
+    {
+      "id": "7",
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "publishedYear": 1851
+    },
+    {
+      "id": "8",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "genre": "Historical Fiction",
+      "publishedYear": 1869
+    },
+    {
+      "id": "9",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Psychological Fiction",
+      "publishedYear": 1866
+    },
+    {
+      "id": "10",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian",
+      "publishedYear": 1932
+    }
+  ]
+}
