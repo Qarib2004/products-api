@@ -10,12 +10,7 @@
       "experienceYear": 5,
       "bio": "Experienced Software Engineer with a passion for web technologies.",
       "password": "Test123!",
-      "skills": [
-        "JavaScript",
-        "React",
-        "Node.js",
-        "TypeScript"
-      ]
+      "skills": ["JavaScript", "React", "Node.js", "TypeScript"]
     },
     {
       "id": 2,
@@ -27,12 +22,7 @@
       "experienceYear": 3,
       "bio": "Creative and passionate UI/UX designer with experience in building responsive designs.",
       "password": "Design123!",
-      "skills": [
-        "Adobe XD",
-        "Figma",
-        "HTML",
-        "CSS"
-      ]
+      "skills": ["Adobe XD", "Figma", "HTML", "CSS"]
     },
     {
       "id": 3,
@@ -44,12 +34,7 @@
       "experienceYear": 7,
       "bio": "Seasoned Backend Developer specializing in Python and cloud technologies.",
       "password": "Backend123!",
-      "skills": [
-        "Python",
-        "Django",
-        "AWS",
-        "PostgreSQL"
-      ]
+      "skills": ["Python", "Django", "AWS", "PostgreSQL"]
     },
     {
       "id": 4,
@@ -61,12 +46,7 @@
       "experienceYear": 2,
       "bio": "Junior Software Developer with a focus on mobile app development.",
       "password": "MobileDev123!",
-      "skills": [
-        "Flutter",
-        "Dart",
-        "Android",
-        "iOS"
-      ]
+      "skills": ["Flutter", "Dart", "Android", "iOS"]
     },
     {
       "id": 5,
@@ -78,12 +58,7 @@
       "experienceYear": 4,
       "bio": "Passionate Frontend Developer with expertise in modern JavaScript frameworks.",
       "password": "Frontend123!",
-      "skills": [
-        "Vue.js",
-        "Angular",
-        "JavaScript",
-        "CSS"
-      ]
+      "skills": ["Vue.js", "Angular", "JavaScript", "CSS"]
     }
   ],
   "companies": [
