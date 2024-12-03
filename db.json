@@ -1,74 +1,229 @@
 {
-  "books": [
+  "users": [
     {
-      "id": "1",
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "publishedYear": 1937
+      "id": 1,
+      "name": "Elvin Abbasov",
+      "email": "elvin.abbasov@example.com",
+      "createdAt": "2024-12-01T08:00:00Z",
+      "profileImage": "user1.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 5,
+      "bio": "Experienced Software Engineer with a passion for web technologies.",
+      "password": "Test123!",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript"
+      ]
     },
     {
-      "id": "2",
-      "title": "Dune",
-      "author": "Frank Herbert",
-      "genre": "Science Fiction",
-      "publishedYear": 1965
+      "id": 2,
+      "name": "Sarah Aliyeva",
+      "email": "sarah.aliyeva@example.com",
+      "createdAt": "2024-11-15T08:00:00Z",
+      "profileImage": "user2.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 3,
+      "bio": "Creative and passionate UI/UX designer with experience in building responsive designs.",
+      "password": "Design123!",
+      "skills": [
+        "Adobe XD",
+        "Figma",
+        "HTML",
+        "CSS"
+      ]
     },
     {
-      "id": "3",
-      "title": "Romeo and Juliet",
-      "author": "William Shakespeare",
-      "genre": "Drama",
-      "publishedYear": 1597
+      "id": 3,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "createdAt": "2024-10-10T09:00:00Z",
+      "profileImage": "user3.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 7,
+      "bio": "Seasoned Backend Developer specializing in Python and cloud technologies.",
+      "password": "Backend123!",
+      "skills": [
+        "Python",
+        "Django",
+        "AWS",
+        "PostgreSQL"
+      ]
     },
     {
-      "id": "4",
-      "title": "The Da Vinci Code",
-      "author": "Dan Brown",
-      "genre": "Mystery",
-      "publishedYear": 2003
+      "id": 4,
+      "name": "Anna Mammadova",
+      "email": "anna.mammadova@example.com",
+      "createdAt": "2024-11-20T10:30:00Z",
+      "profileImage": "user4.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 2,
+      "bio": "Junior Software Developer with a focus on mobile app development.",
+      "password": "MobileDev123!",
+      "skills": [
+        "Flutter",
+        "Dart",
+        "Android",
+        "iOS"
+      ]
     },
     {
-      "id": "5",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "genre": "Romance",
-      "publishedYear": 1813
+      "id": 5,
+      "name": "David Guliyev",
+      "email": "david.guliyev@example.com",
+      "createdAt": "2024-09-25T11:15:00Z",
+      "profileImage": "user5.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 4,
+      "bio": "Passionate Frontend Developer with expertise in modern JavaScript frameworks.",
+      "password": "Frontend123!",
+      "skills": [
+        "Vue.js",
+        "Angular",
+        "JavaScript",
+        "CSS"
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "TechNest LLC",
+      "location": "Baku, Azerbaijan",
+      "industry": "IT",
+      "createdAt": "2023-01-15T12:00:00Z",
+      "website": "https://www.technest.az",
+      "password": "Comp123!",
+      "employeesIds": ["1", "2"],
+      "reviews": [
+        {
+          "userId": 1,
+          "comment": "Great company to work with!",
+          "rating": 5
+        },
+        {
+          "userId": 2,
+          "comment": "Friendly environment and innovative projects.",
+          "rating": 4
+        }
+      ]
     },
     {
-      "id": "6",
-      "title": "Gone Girl",
-      "author": "Gillian Flynn",
-      "genre": "Thriller",
-      "publishedYear": 2012
+      "id": 2,
+      "name": "Digital Innovations",
+      "location": "Baku, Azerbaijan",
+      "industry": "Tech",
+      "createdAt": "2023-06-01T12:00:00Z",
+      "website": "https://www.digitalinnovations.az",
+      "password": "Digital123!",
+      "employeesIds": ["3", "4"],
+      "reviews": [
+        {
+          "userId": 3,
+          "comment": "Innovative products and dynamic team.",
+          "rating": 5
+        },
+        {
+          "userId": 4,
+          "comment": "Challenging projects but rewarding experience.",
+          "rating": 4
+        }
+      ]
     },
     {
-      "id": "7",
-      "title": "The Lord of the Rings",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "publishedYear": 1954
+      "id": 3,
+      "name": "InnoTech Solutions",
+      "location": "Baku, Azerbaijan",
+      "industry": "IT",
+      "createdAt": "2022-08-15T14:00:00Z",
+      "website": "https://www.innotechsolutions.az",
+      "password": "Inno123!",
+      "employeesIds": ["5"],
+      "reviews": [
+        {
+          "userId": 5,
+          "comment": "Small team but amazing growth opportunities.",
+          "rating": 4
+        }
+      ]
+    }
+  ],
+  "vacancies": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "companyId": 1,
+      "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
+      "salary": "2000-3000 AZN",
+      "postedAt": "2024-11-30T10:00:00Z",
+      "expiresAt": "2024-12-31T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        {
+          "candidateId": "1",
+          "appliedAt": "2024-12-31T23:59:59Z",
+          "linkedinUrl": "url here",
+          "status": "pending"
+        },
+        {
+          "candidateId": "2",
+          "appliedAt": "2024-12-31T23:59:59Z",
+          "linkedinUrl": "url here",
+          "status": "accepted"
+        },
+        {
+          "candidateId": "3",
+          "appliedAt": "2024-12-31T23:59:59Z",
+          "linkedinUrl": "url here",
+          "status": "rejected"
+        }
+      ]
     },
     {
-      "id": "8",
-      "title": "Neuromancer",
-      "author": "William Gibson",
-      "genre": "Science Fiction",
-      "publishedYear": 1984
+      "id": 2,
+      "title": "Backend Developer",
+      "companyId": 2,
+      "description": "We are looking for a talented Backend Developer skilled in Python and Django.",
+      "salary": "2500-3500 AZN",
+      "postedAt": "2024-11-20T11:00:00Z",
+      "expiresAt": "2024-12-15T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        {
+          "candidateId": "3",
+          "appliedAt": "2024-12-01T15:00:00Z",
+          "linkedinUrl": "url here",
+          "status": "pending"
+        },
+        {
+          "candidateId": "4",
+          "appliedAt": "2024-12-02T11:00:00Z",
+          "linkedinUrl": "url here",
+          "status": "accepted"
+        }
+      ]
     },
     {
-      "id": "9",
-      "title": "Macbeth",
-      "author": "William Shakespeare",
-      "genre": "Drama",
-      "publishedYear": 1606
-    },
-    {
-      "id": "10",
-      "title": "The Girl with the Dragon Tattoo",
-      "author": "Stieg Larsson",
-      "genre": "Mystery",
-      "publishedYear": 2005
+      "id": 3,
+      "title": "Mobile Developer",
+      "companyId": 3,
+      "description": "Seeking a skilled Mobile Developer with expertise in Flutter and Dart.",
+      "salary": "2200-2800 AZN",
+      "postedAt": "2024-12-01T09:00:00Z",
+      "expiresAt": "2024-12-30T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        {
+          "candidateId": "5",
+          "appliedAt": "2024-12-01T10:00:00Z",
+          "linkedinUrl": "url here",
+          "status": "pending"
+        }
+      ]
     }
   ]
 }
