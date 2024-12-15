@@ -1,258 +1,114 @@
 {
-  "events": [
+  "artists": [
     {
       "id": 1,
-      "name": "Tech Conference 2024",
-      "dateTime": "2024-12-15T09:00:00Z",
-      "venueId": 1,
-      "organizer": "Tech Innovators",
-      "description": "An annual conference for tech enthusiasts to explore the latest trends in AI, IoT, and software development.",
-      "ticketsAvailable": 200,
-      "category": "Technology",
-      "price": 100,
-      "ageRestriction": "18+",
-      "posterURL": "https://example.com/posters/tech-conference-2024.jpg",
-      "duration": "8 hours",
-      "soldTickets": 300
+      "name": "Taylor Swift",
+      "imgSrc": "https://avatars.mds.yandex.net/i?id=9f3ab1e22bc0c5d88112e67c3c62d0db_l-9226182-images-thumbs&n=13",
+      "genre": "Pop",
+      "country": "USA",
+      "age": 34,
+      "info": "A global superstar known for her versatile music and storytelling.",
+      "isVerified": true,
+      "songs": []
     },
     {
       "id": 2,
-      "name": "Live Music Night",
-      "dateTime": "2024-12-20T19:30:00Z",
-      "venueId": 2,
-      "organizer": "Music Fest Co.",
-      "description": "A night to enjoy live performances from renowned artists and local bands.",
-      "ticketsAvailable": 50,
-      "category": "Music",
-      "price": 50,
-      "ageRestriction": "16+",
-      "posterURL": "https://example.com/posters/live-music-night.jpg",
-      "duration": "4 hours",
-      "soldTickets": 600
+      "name": "Ed Sheeran",
+      "imgSrc": "https://i.pinimg.com/originals/76/ad/74/76ad744399dbbf98af40d4613028a3d9.jpg",
+      "genre": "Pop",
+      "country": "UK",
+      "age": 33,
+      "info": "An award-winning singer-songwriter famous for his heartfelt lyrics.",
+      "isVerified": true,
+      "songs": []
     },
     {
       "id": 3,
-      "name": "Startup Pitch Day 2024",
-      "dateTime": "2024-11-30T10:00:00Z",
-      "venueId": 3,
-      "organizer": "Startup Incubator",
-      "description": "Pitch your ideas to investors and gain mentorship from industry leaders.",
-      "ticketsAvailable": 150,
-      "category": "Business",
-      "price": 30,
-      "ageRestriction": "All Ages",
-      "posterURL": "https://example.com/posters/startup-pitch-day.jpg",
-      "duration": "6 hours",
-      "soldTickets": 100
+      "name": "Beyoncé",
+      "imgSrc": "https://s.yimg.com/ny/api/res/1.2/typTYKlzrL6Du.v9eqxhbQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en-US/homerun/etonline.tv/2fbf3717672ee2d524909432593e8952",
+      "genre": "R&B",
+      "country": "USA",
+      "age": 42,
+      "info": "An iconic artist, actress, and businesswoman known as the Queen of Pop.",
+      "isVerified": true,
+      "songs": []
     },
     {
       "id": 4,
-      "name": "Art Exhibition 2024",
-      "dateTime": "2024-12-01T15:00:00Z",
-      "venueId": 4,
-      "organizer": "Artistic Minds",
-      "description": "Explore the finest contemporary art from local and international artists.",
-      "ticketsAvailable": 80,
-      "category": "Art",
-      "price": 20,
-      "ageRestriction": "All Ages",
-      "posterURL": "https://example.com/posters/art-exhibition-2024.jpg",
-      "duration": "5 hours",
-      "soldTickets": 70
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "role": "admin",
-      "username": "admin_tech",
-      "email": "admin_tech@example.com",
-      "password": "hashed_password_1",
-      "balance": 500,
-      "profilePictureURL": "https://example.com/images/admin-profile.jpg",
-      "favorites": [
-        {
-          "id": 1,
-          "eventId": 1
-        },
-        {
-          "id": 2,
-          "eventId": 2
-        }
-      ],
-      "accountCreationDate": "2022-01-01",
-      "totalSpentMoney": 0
-    },
-    {
-      "id": 2,
-      "role": "client",
-      "username": "johnny_events",
-      "email": "johnny@example.com",
-      "password": "hashed_password_2",
-      "balance": 150,
-      "profilePictureURL": "https://example.com/images/johnny-profile.jpg",
-      "favorites": [
-        {
-          "id": 1,
-          "eventId": 3
-        },
-        {
-          "id": 2,
-          "eventId": 4
-        }
-      ],
-      "accountCreationDate": "2023-05-15",
-      "totalSpentMoney": 80
-    },
-    {
-      "id": 3,
-      "role": "client",
-      "username": "mike_attendee",
-      "email": "mike@example.com",
-      "password": "hashed_password_3",
-      "balance": 75,
-      "profilePictureURL": "https://example.com/images/mike-profile.jpg",
-      "favorites": [
-        {
-          "id": 1,
-          "eventId": 1
-        },
-        {
-          "id": 2,
-          "eventId": 2
-        }
-      ],
-      "accountCreationDate": "2023-07-12",
-      "totalSpentMoney": 50
-    },
-    {
-      "id": 4,
-      "role": "client",
-      "username": "jenny_tech",
-      "email": "jenny@example.com",
-      "password": "hashed_password_4",
-      "balance": 120,
-      "profilePictureURL": "https://example.com/images/jenny-profile.jpg",
-      "favorites": [
-        {
-          "id": 1,
-          "eventId": 3
-        },
-        {
-          "id": 2,
-          "eventId": 5
-        }
-      ],
-      "accountCreationDate": "2022-03-01",
-      "totalSpentMoney": 110
+      "name": "Bad Bunny",
+      "imgSrc": "https://www.billboard.com/wp-content/uploads/media/bad-bunny-press-new-2019-billboard-1548.jpg?w=942&h=623&crop=1&resize=942%2C623",
+      "genre": "Reggaeton",
+      "country": "Puerto Rico",
+      "age": 30,
+      "info": "A trailblazing Latin artist redefining global music trends.",
+      "isVerified": true,
+      "songs": []
     },
     {
       "id": 5,
-      "role": "client",
-      "username": "susan_smith",
-      "email": "susan@example.com",
-      "password": "hashed_password_5",
-      "balance": 200,
-      "profilePictureURL": "https://example.com/images/susan-profile.jpg",
-      "favorites": [
-        {
-          "id": 1,
-          "eventId": 4
-        },
-        {
-          "id": 2,
-          "eventId": 5
-        }
-      ],
-      "accountCreationDate": "2021-09-20",
-      "totalSpentMoney": 250
-    }
-  ],
-  "tickets": [
-    {
-      "id": 1,
-      "userId": 2,
-      "eventId": 1,
-      "quantity": 2,
-      "price": 100,
-      "purchaseDate": "2024-11-10T15:30:00Z",
-      "ticketCode": "TK-001-AB12X"
+      "name": "Adele",
+      "imgSrc": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/rockcms/2021-11/211108-adele-mn-0955-c98f9d.jpg",
+      "genre": "Soul",
+      "country": "UK",
+      "age": 35,
+      "info": "A soulful singer celebrated for her powerful ballads.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": 2,
-      "userId": 3,
-      "eventId": 2,
-      "quantity": 1,
-      "price": 80,
-      "purchaseDate": "2024-11-12T10:00:00Z",
-      "ticketCode": "TK-002-CD34Y"
+      "id": 6,
+      "name": "Drake",
+      "imgSrc": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/rockcms/2024-05/240510-drake-ch-1056-b2d5db.jpg",
+      "genre": "Hip-Hop",
+      "country": "Canada",
+      "age": 37,
+      "info": "A prolific rapper and producer dominating charts worldwide.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": 3,
-      "userId": 4,
-      "eventId": 3,
-      "quantity": 3,
-      "price": 120,
-      "purchaseDate": "2024-11-14T12:00:00Z",
-      "ticketCode": "TK-003-EF56Z"
+      "id": 7,
+      "name": "Lady Gaga",
+      "imgSrc": "https://avatars.mds.yandex.net/i?id=2a7ca2e6f3f9850cb8bf883c36877fe6dcf0235f-10705627-images-thumbs&n=13",
+      "genre": "Pop",
+      "country": "USA",
+      "age": 37,
+      "info": "A multi-talented artist known for her theatrical performances and unique style.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": 4,
-      "userId": 5,
-      "eventId": 4,
-      "quantity": 1,
-      "price": 90,
-      "purchaseDate": "2024-11-15T18:30:00Z",
-      "ticketCode": "TK-004-GH78A"
+      "id": 8,
+      "name": "The Weeknd",
+      "imgSrc": "https://avatars.mds.yandex.net/i?id=ded4b4e94e3bb79ccc35f9d936750e95_l-8185197-images-thumbs&n=13",
+      "genre": "R&B",
+      "country": "Canada",
+      "age": 33,
+      "info": "A Grammy-winning artist known for his moody and atmospheric music.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": 5,
-      "userId": 2,
-      "eventId": 5,
-      "quantity": 2,
-      "price": 130,
-      "purchaseDate": "2024-11-16T09:00:00Z",
-      "ticketCode": "TK-005-IJ90B"
-    }
-  ],
-
-  "venues": [
-
-    {
-      "id":1,
-      "name": "Tech Park Conference Hall",
-        "address": "123 Silicon Avenue, Baku, Azerbaijan",
-        "capacity": 500,
-        "description": "A state-of-the-art conference hall equipped with modern technology for hosting large-scale events.",
-        "contactEmail": "info@techpark.az",
-        "imageURL": "https://example.com/images/tech-park-hall.jpg"
+      "id": 9,
+      "name": "Rihanna",
+      "imgSrc": "https://avatars.mds.yandex.net/i?id=827fdfbe43e4ab489fd05cc9c98fe2aa_l-4537101-images-thumbs&n=13",
+      "genre": "R&B",
+      "country": "Barbados",
+      "age": 36,
+      "info": "An entrepreneur and music icon with a string of chart-topping hits.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": 2,
-      "name": "City Music Arena",
-      "address": "456 Harmony Street, Ganja, Azerbaijan",
-      "capacity": 1000,
-      "description": "A vibrant music arena hosting concerts, live performances, and festivals with excellent acoustics.",
-      "contactEmail": "contact@citymusicarena.az",
-      "imageURL": "https://example.com/images/city-music-arena.jpg"
-    },
-    {
-      "id":3,
-      "name": "Startup Hub Auditorium",
-      "address": "789 Innovation Drive, Baku, Azerbaijan",
-      "capacity": 300,
-      "description": "A cozy auditorium perfect for workshops, seminars, and startup pitch events.",
-      "contactEmail": "auditorium@startuphub.az",
-      "imageURL": "https://example.com/images/startup-hub-auditorium.jpg"
-    },
-    {
-      "id":4,
-      "name": "Modern Art Gallery",
-      "address": "321 Creative Lane, Baku, Azerbaijan",
-      "capacity": 200,
-      "description": "A sophisticated gallery showcasing contemporary art and providing an inspiring venue for exhibitions.",
-      "contactEmail": "info@modernart.az",
-      "imageURL": "https://example.com/images/modern-art-gallery.jpg"
+      "id": 10,
+      "name": "Bruno Mars",
+      "imgSrc": "https://avatars.mds.yandex.net/i?id=3679ba97f9c5418639e94a76d2022a8f4f5f0d5e-3343247-images-thumbs&n=13",
+      "genre": "Pop",
+      "country": "USA",
+      "age": 38,
+      "info": "A versatile performer with a knack for creating timeless hits.",
+      "isVerified": true,
+      "songs": []
     }
   ]
 }
