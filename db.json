@@ -1,114 +1,212 @@
 {
-  "artists": [
+  "movies": [
     {
-      "id": 1,
-      "name": "Taylor Swift",
-      "imgSrc": "https://avatars.mds.yandex.net/i?id=9f3ab1e22bc0c5d88112e67c3c62d0db_l-9226182-images-thumbs&n=13",
-      "genre": "Pop",
-      "country": "USA",
-      "age": 34,
-      "info": "A global superstar known for her versatile music and storytelling.",
-      "isVerified": true,
-      "songs": []
+      "id": "1",
+      "title": "Inception",
+      "genre": "sci-fi",
+      "releaseYear": 2010,
+      "poster": "https://avatars.mds.yandex.net/i?id=58b0ebc88a8a7eb62a73e6a2b724f634_l-5467261-images-thumbs&n=13",
+      "desc": "A thief who enters the dreams of others to steal secrets.",
+      "cast": [
+        {
+          "id": 101,
+          "fullName": "Leonardo DiCaprio",
+          "age": "36",
+          "country": "USA"
+        },
+        {
+          "id": 102,
+          "fullName": "Joseph Gordon-Levitt",
+          "age": "29",
+          "country": "USA"
+        }
+      ]
     },
     {
-      "id": 2,
-      "name": "Ed Sheeran",
-      "imgSrc": "https://i.pinimg.com/originals/76/ad/74/76ad744399dbbf98af40d4613028a3d9.jpg",
-      "genre": "Pop",
-      "country": "UK",
-      "age": 33,
-      "info": "An award-winning singer-songwriter famous for his heartfelt lyrics.",
-      "isVerified": true,
-      "songs": []
+      "id": "2",
+      "title": "The Matrix",
+      "genre": "action",
+      "releaseYear": 1999,
+      "poster": "https://yandex-images.clstorage.net/9amC8K401/d8202e25/IPBpzY-zkwci7yb6m11dZZ4oiI9YlwMsAWs4OV9TocP3j20Szi0OuFF_iWp75UIj3bE3pCUHplLBUyutOrQNmEX0DKna98bjUu93viv5nMVfKdxOjKZXDZErTamaRWcBgP0utViK_OrWC5kvDpCGIimFESe0AAaStnON3ag0qA1ggemMDtMyceIvhvworAz1vGnejiv2hv82ivkOP9ZFsaPNLRe76twJVblbnE_ixVeI9XPHIlJ0Y7UzrZ3LpGndENCZrY2wkRMy_cSPKBzt1Z7KTM_IJiRPxRt4nr33lCET_U81y5svOrYbmnye8eWECsTiJXEClhHGsw3fWBSLX0AAKE388hBhUE8G__htnJfsSb8PGbd0jeUYKR4OVbaTEN_9l9iY_HhWS0uvzKBFdBjVE-bi0McSxmHurosX2H-CQZueXMGA8OE9dbyKD-71LXpvLRnkFZ7GS8j8rgQVY6K9H_V56s44Jmt4Px4iNyVplIBkAPL2YpbzzsyI1GlsQLNK7G7hwJFgjvZNS4xdZMzaPf_odHc8xNuJDb5GJeNBr6_mOiqcKGQ6akxvsjbHy_UjhoBjJnLWci4-CRaqXHCBOV2OwCJg4a-krlvODIce6Z1u6gcFvvT7yB7uVCfxw4_8x1rJbkoUu6o8jkKUB9v3ArYiIZbAxeEP7CsEqk1xYYreDDAAoMFsd71qDY1Vb2venhoVVN3nyzn-Llb2ARD_TYc7Cs_qxtppDb7h1cTaVnGUwaIE4ERRrF2YJDgfIhMa_B-zwhORHAbM2K1utw1JPq9a93V8t8iIHR_Fl8CRfS-m23kf-iQIi48cQ5dmupdA5RDh9SAlQR6ueEeITHOwSP-fw6OyUl52vxpNL0Suib0vq-SnTDUY-J6v9TVhQ35cBWk5bFglyPuvDaAmxcolEeQg8FZxN1FP_4k02A2xk9kf7vJgwvMdt64J7u_3TJqdH-lGBy7Eu1gvrPUGI",
+      "desc": "A hacker discovers the truth about his reality.",
+      "cast": [
+        {
+          "id": 201,
+          "fullName": "Keanu Reeves",
+          "age": "35",
+          "country": "Canada"
+        },
+        {
+          "id": 202,
+          "fullName": "Carrie-Anne Moss",
+          "age": "32",
+          "country": "Canada"
+        }
+      ]
     },
     {
-      "id": 3,
-      "name": "Beyoncé",
-      "imgSrc": "https://s.yimg.com/ny/api/res/1.2/typTYKlzrL6Du.v9eqxhbQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en-US/homerun/etonline.tv/2fbf3717672ee2d524909432593e8952",
-      "genre": "R&B",
-      "country": "USA",
-      "age": 42,
-      "info": "An iconic artist, actress, and businesswoman known as the Queen of Pop.",
-      "isVerified": true,
-      "songs": []
+      "id": "3",
+      "title": "Titanic",
+      "genre": "romantic",
+      "releaseYear": 2000,
+      "poster": "https://avatars.mds.yandex.net/i?id=526114002c25d187dd5471433607de57_l-12527814-images-thumbs&n=13",
+      "desc": "The crew of a spacecraft, Nostromo, intercept a distress signal from a planet and set out to investigate.",
+      "cast": [
+        {
+          "id": 1714630921412,
+          "fullName": "Leonardo Dicaprio",
+          "age": "40",
+          "country": "USA"
+        }
+      ]
     },
     {
-      "id": 4,
-      "name": "Bad Bunny",
-      "imgSrc": "https://www.billboard.com/wp-content/uploads/media/bad-bunny-press-new-2019-billboard-1548.jpg?w=942&h=623&crop=1&resize=942%2C623",
-      "genre": "Reggaeton",
-      "country": "Puerto Rico",
-      "age": 30,
-      "info": "A trailblazing Latin artist redefining global music trends.",
-      "isVerified": true,
-      "songs": []
+      "id": "4",
+      "title": "Avatar",
+      "genre": "fantasy",
+      "releaseYear": 2009,
+      "poster": "https://opis-cdn.tinkoffjournal.ru/mercury/avatar-way-to-imax-inxp6b3g.ubzujz..png",
+      "desc": "A marine on an alien planet becomes torn between following orders and protecting a new world.",
+      "cast": [
+        {
+          "id": 301,
+          "fullName": "Sam Worthington",
+          "age": "33",
+          "country": "Australia"
+        },
+        {
+          "id": 302,
+          "fullName": "Zoe Saldana",
+          "age": "31",
+          "country": "USA"
+        }
+      ]
     },
     {
-      "id": 5,
-      "name": "Adele",
-      "imgSrc": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/rockcms/2021-11/211108-adele-mn-0955-c98f9d.jpg",
-      "genre": "Soul",
-      "country": "UK",
-      "age": 35,
-      "info": "A soulful singer celebrated for her powerful ballads.",
-      "isVerified": true,
-      "songs": []
+      "id": "5",
+      "title": "The Dark Knight",
+      "genre": "action",
+      "releaseYear": 2008,
+      "poster": "https://yandex-images.clstorage.net/9amC8K401/d8202e25/IPBpzY-zkwci7yb6m11dZZ4oiI9YlwMsAWs4OVoGwbOHvz1i_q0OjVTfnEquhaKW-MEXoTUn1iexxg7YerQNmMXkjNla5zcHEq-33gqceVSe-Fy_mfInzEWeGJlaY6cAYP0fZFlbTAo2eOiv_jCX90xFY4ez9rTydFEOPlnluSyQUWk8n2PDs4Afdy9InyzErhscvVlVdx23Obkt_cY0ItDeL2f7uCwq1ftabU1x5bQ55BPlU2DmgIVSTh4ZhintQCE4TL7goBDiz6VtO5-cJY45vy8Ytqe_B8oorG1EFfNAbh8F2chd2eYY-KytoPaU6mYidLEztmL3Ic6-WxWZD8Jx6P1ekeKRkK0Xr0tP7VTMSzzc2Gc278XqK_3t97fR8m09t3vbXgqk-Kh9fvKnNBp0M4VyoGQz9CEcXSrGmlzis6lOjTHRAQEcZdwIPY8mrooPDPpnZY7WyXgcD1fmcgLfX1UZeiw45IiITu4gJUZLBXIW8EJGAoRxjn1IxVnt8XFbn_8D8UFgndZf-fwMlT9rr14olvXsdMvoXf5HpEKCPE3lCjnsavTK2VydUbVHqacTtRLC19KUMQ-dukSbLsFBaexO49CjkRz3DRrsTsTcuZz-uZSGnvb7yBztF7ZAkL5ttitZD5iWulic7bBF5Wm3EZQiYJViJiKcvGhmiS7QQIlfzWEggVE8NN4J3Y1FDsgevUlklM-V6PjtDde0kWBtHQdrOMw5Nmg5X9yA5qSqtrDnAIMW8AajLB_Z1am8ghP7z-9yo0PibESveG8tpuyqPF14JHbuNLj7XO7mJ_Ch7J9lSti_6SaK671eIkTmCNZx1nFSVQHGwjytKjXKDNFCWJ3s8tMiQ68G3wutzecfCfze-NVlPAQ6KyxtVhdSAD6cFulq_5qEiyvNfjOnV6umw4dwYkSil9As_HvEuVyQgHsMDIPi4TMORR4avm4nrOvv_siXx5xmy4iM3FUXY",
+      "desc": "Batman battles the Joker, who seeks to create chaos in Gotham City.",
+      "cast": [
+        {
+          "id": 401,
+          "fullName": "Christian Bale",
+          "age": "34",
+          "country": "UK"
+        },
+        {
+          "id": 402,
+          "fullName": "Heath Ledger",
+          "age": "28",
+          "country": "Australia"
+        }
+      ]
     },
     {
-      "id": 6,
-      "name": "Drake",
-      "imgSrc": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/rockcms/2024-05/240510-drake-ch-1056-b2d5db.jpg",
-      "genre": "Hip-Hop",
-      "country": "Canada",
-      "age": 37,
-      "info": "A prolific rapper and producer dominating charts worldwide.",
-      "isVerified": true,
-      "songs": []
+      "id": "6",
+      "title": "https://avatars.mds.yandex.net/i?id=2d32536d249822356b69d80e1d2062f9_l-5222233-images-thumbs&n=13",
+      "genre": "fantasy",
+      "releaseYear": 2001,
+      "poster": "https://i.example.com/lotr.jpg",
+      "desc": "A young hobbit sets out on a journey to destroy a powerful ring.",
+      "cast": [
+        {
+          "id": 501,
+          "fullName": "Elijah Wood",
+          "age": "20",
+          "country": "USA"
+        },
+        {
+          "id": 502,
+          "fullName": "Ian McKellen",
+          "age": "62",
+          "country": "UK"
+        }
+      ]
     },
     {
-      "id": 7,
-      "name": "Lady Gaga",
-      "imgSrc": "https://avatars.mds.yandex.net/i?id=2a7ca2e6f3f9850cb8bf883c36877fe6dcf0235f-10705627-images-thumbs&n=13",
-      "genre": "Pop",
-      "country": "USA",
-      "age": 37,
-      "info": "A multi-talented artist known for her theatrical performances and unique style.",
-      "isVerified": true,
-      "songs": []
+      "id": "7",
+      "title": "Interstellar",
+      "genre": "sci-fi",
+      "releaseYear": 2014,
+      "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/f9855348-5d09-43fc-b448-9d38b7fac7ab/1280x1280",
+      "desc": "A team of explorers travels through a wormhole in search of a new home for humanity.",
+      "cast": [
+        {
+          "id": 601,
+          "fullName": "Matthew McConaughey",
+          "age": "44",
+          "country": "USA"
+        },
+        {
+          "id": 602,
+          "fullName": "Anne Hathaway",
+          "age": "31",
+          "country": "USA"
+        }
+      ]
     },
     {
-      "id": 8,
-      "name": "The Weeknd",
-      "imgSrc": "https://avatars.mds.yandex.net/i?id=ded4b4e94e3bb79ccc35f9d936750e95_l-8185197-images-thumbs&n=13",
-      "genre": "R&B",
-      "country": "Canada",
-      "age": 33,
-      "info": "A Grammy-winning artist known for his moody and atmospheric music.",
-      "isVerified": true,
-      "songs": []
+      "id": "8",
+      "title": "Pulp Fiction",
+      "genre": "crime",
+      "releaseYear": 1994,
+      "poster": "https://avatars.mds.yandex.net/i?id=07ab4d0f50a2cc89ef390881f368dd8d45f844dc-5360050-images-thumbs&n=13",
+      "desc": "Interconnected stories of crime and redemption.",
+      "cast": [
+        {
+          "id": 701,
+          "fullName": "John Travolta",
+          "age": "40",
+          "country": "USA"
+        },
+        {
+          "id": 702,
+          "fullName": "Samuel L. Jackson",
+          "age": "45",
+          "country": "USA"
+        }
+      ]
     },
     {
-      "id": 9,
-      "name": "Rihanna",
-      "imgSrc": "https://avatars.mds.yandex.net/i?id=827fdfbe43e4ab489fd05cc9c98fe2aa_l-4537101-images-thumbs&n=13",
-      "genre": "R&B",
-      "country": "Barbados",
-      "age": 36,
-      "info": "An entrepreneur and music icon with a string of chart-topping hits.",
-      "isVerified": true,
-      "songs": []
+      "id": "9",
+      "title": "Forrest Gump",
+      "genre": "drama",
+      "releaseYear": 1994,
+      "poster": "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65465cf2e2f4081ea9491d0d_65465d85c25247659e32f920/scale_1200",
+      "desc": "The life journey of a kind and simple man who witnesses key historical events.",
+      "cast": [
+        {
+          "id": 801,
+          "fullName": "Tom Hanks",
+          "age": "38",
+          "country": "USA"
+        }
+      ]
     },
     {
-      "id": 10,
-      "name": "Bruno Mars",
-      "imgSrc": "https://avatars.mds.yandex.net/i?id=3679ba97f9c5418639e94a76d2022a8f4f5f0d5e-3343247-images-thumbs&n=13",
-      "genre": "Pop",
-      "country": "USA",
-      "age": 38,
-      "info": "A versatile performer with a knack for creating timeless hits.",
-      "isVerified": true,
-      "songs": []
+      "id": "10",
+      "title": "Gladiator",
+      "genre": "historical",
+      "releaseYear": 2000,
+      "poster": "https://avatars.mds.yandex.net/i?id=bfe4959e0cd3cbfc20d2150eac17fa6f_l-5292718-images-thumbs&n=13",
+      "desc": "A Roman general seeks vengeance against the corrupt emperor who betrayed him.",
+      "cast": [
+        {
+          "id": 901,
+          "fullName": "Russell Crowe",
+          "age": "36",
+          "country": "Australia"
+        },
+        {
+          "id": 902,
+          "fullName": "Joaquin Phoenix",
+          "age": "26",
+          "country": "USA"
+        }
+      ]
     }
   ]
 }
