@@ -1,212 +1,91 @@
 {
-  "movies": [
+  "countries": [
     {
-      "id": "1",
-      "title": "Inception",
-      "genre": "sci-fi",
-      "releaseYear": 2010,
-      "poster": "https://avatars.mds.yandex.net/i?id=58b0ebc88a8a7eb62a73e6a2b724f634_l-5467261-images-thumbs&n=13",
-      "desc": "A thief who enters the dreams of others to steal secrets.",
-      "cast": [
-        {
-          "id": 101,
-          "fullName": "Leonardo DiCaprio",
-          "age": "36",
-          "country": "USA"
-        },
-        {
-          "id": 102,
-          "fullName": "Joseph Gordon-Levitt",
-          "age": "29",
-          "country": "USA"
-        }
-      ]
+      "id": 1,
+      "name": "Azərbaycan",
+      "population": 10139177,
+      "flagImg": "https://yandex-images.clstorage.net/D1f0F0365/fdb7dc81S/O3zjmGoYuNszUhtRoL-3SmdWI52x86piaotZ9LzlH6oYz9w7eHQpR38iKz-B0OkVgfdGiRx83jHS_43Du3fFO35tvok7GcHHM0ZKfYmP33onAxPovaaiBnqWPcX1QKsimSM4luDZ0fPXTjpG3dXNcd2q9zwIYFapL8JUr0ueQIaLAKvozngpc6_-WkHUG8PuQ18DHXE2StfSM1w8IWwTglFz8Obo0a0P_y7arpUdYH3JJht5kFjC2VseRG8vrizCr-DTWKa0zXPv8pbBrA9fcvvvcz09PkYDUhsgUDUsczrBcxx6vLUNa_N2tq4tVSSNITIDgYRg5h17uoC_h5oQpv_MB1wyRClHo4pOLZRTW2rDlxMRfUZ2Sx7zbLzZWHP6uRdYDiSZKW_Pfu6-eR04GdlWU1Es3NqVl8JsS_MuzLoL8Kd4ZjhBS8tmsqVkc1Nyq7v_EQX-3tdy80wgKdwDCtWv_PKU0VVfNwoO8v3dkN05GoMR3ByONXceNOfrauQOh-yv3CbIcf-fBm7hrDfrhsenK60VGtr7OiPEGAn822Kta6ASiGlVf0vmknLt4bAZffoH9YAYkhX_XvjbL04k0jOga5QKdPEjC-7i_Qz3x9ZT16cpcZJy73aX9Ix1GIeSqYuE-ph5Jf_HjupeSXmA7d3208XAwAIVb97wy-NqpE77qP_sVhxFz8sGbmHQdzNCm9M76bGa3ncaayikaWwPMqFrmLKMdd3zP3qiJnUJIMU5-lNpGCCqeRdeNBdXLmS2c6wziEZcfUdL8g7NLGPvaiNnx8VpSoIHmm_wZPmAk86Vp3CCGHnVi6dirq7lqbABCTIT5YT86jWrFhRb_0JA-qtET2wyHB2vZ0r6dchn2_Y7m0OZhY5yQ6rPhEgBoJsWMYv0NkDFWetTworq1cWgdY3mX3EofBopWx6MMxuupLb3DOOMekztJzeK9sFoG1t2v3-z-TWWdlcKp2iMEeSI",
+      "capital": "Bakı",
+      "description": "Qafqaz regionunda yerləşən ölkə.",
+      "religion": "İslam"
     },
     {
-      "id": "2",
-      "title": "The Matrix",
-      "genre": "action",
-      "releaseYear": 1999,
-      "poster": "https://yandex-images.clstorage.net/9amC8K401/d8202e25/IPBpzY-zkwci7yb6m11dZZ4oiI9YlwMsAWs4OV9TocP3j20Szi0OuFF_iWp75UIj3bE3pCUHplLBUyutOrQNmEX0DKna98bjUu93viv5nMVfKdxOjKZXDZErTamaRWcBgP0utViK_OrWC5kvDpCGIimFESe0AAaStnON3ag0qA1ggemMDtMyceIvhvworAz1vGnejiv2hv82ivkOP9ZFsaPNLRe76twJVblbnE_ixVeI9XPHIlJ0Y7UzrZ3LpGndENCZrY2wkRMy_cSPKBzt1Z7KTM_IJiRPxRt4nr33lCET_U81y5svOrYbmnye8eWECsTiJXEClhHGsw3fWBSLX0AAKE388hBhUE8G__htnJfsSb8PGbd0jeUYKR4OVbaTEN_9l9iY_HhWS0uvzKBFdBjVE-bi0McSxmHurosX2H-CQZueXMGA8OE9dbyKD-71LXpvLRnkFZ7GS8j8rgQVY6K9H_V56s44Jmt4Px4iNyVplIBkAPL2YpbzzsyI1GlsQLNK7G7hwJFgjvZNS4xdZMzaPf_odHc8xNuJDb5GJeNBr6_mOiqcKGQ6akxvsjbHy_UjhoBjJnLWci4-CRaqXHCBOV2OwCJg4a-krlvODIce6Z1u6gcFvvT7yB7uVCfxw4_8x1rJbkoUu6o8jkKUB9v3ArYiIZbAxeEP7CsEqk1xYYreDDAAoMFsd71qDY1Vb2venhoVVN3nyzn-Llb2ARD_TYc7Cs_qxtppDb7h1cTaVnGUwaIE4ERRrF2YJDgfIhMa_B-zwhORHAbM2K1utw1JPq9a93V8t8iIHR_Fl8CRfS-m23kf-iQIi48cQ5dmupdA5RDh9SAlQR6ueEeITHOwSP-fw6OyUl52vxpNL0Suib0vq-SnTDUY-J6v9TVhQ35cBWk5bFglyPuvDaAmxcolEeQg8FZxN1FP_4k02A2xk9kf7vJgwvMdt64J7u_3TJqdH-lGBy7Eu1gvrPUGI",
-      "desc": "A hacker discovers the truth about his reality.",
-      "cast": [
-        {
-          "id": 201,
-          "fullName": "Keanu Reeves",
-          "age": "35",
-          "country": "Canada"
-        },
-        {
-          "id": 202,
-          "fullName": "Carrie-Anne Moss",
-          "age": "32",
-          "country": "Canada"
-        }
-      ]
+      "id": 2,
+      "name": "Türkiyə",
+      "population": 84339067,
+      "flagImg": "https://avatars.mds.yandex.net/i?id=9176f4dd5a254ee228b02cf357a8d2dc_l-4468364-images-thumbs&n=13",
+      "capital": "Ankara",
+      "description": "Avropa və Asiya qitələrində yerləşən ölkə.",
+      "religion": "İslam"
     },
     {
-      "id": "3",
-      "title": "Titanic",
-      "genre": "romantic",
-      "releaseYear": 2000,
-      "poster": "https://avatars.mds.yandex.net/i?id=526114002c25d187dd5471433607de57_l-12527814-images-thumbs&n=13",
-      "desc": "The crew of a spacecraft, Nostromo, intercept a distress signal from a planet and set out to investigate.",
-      "cast": [
-        {
-          "id": 1714630921412,
-          "fullName": "Leonardo Dicaprio",
-          "age": "40",
-          "country": "USA"
-        }
-      ]
+      "id": 3,
+      "name": "Almaniya",
+      "population": 83166711,
+      "flagImg": "https://avatars.dzeninfra.ru/get-zen_doc/9835822/pub_64be2502dd03bc65717fbb59_64be250add03bc65717fc04a/scale_1200",
+      "capital": "Berlin",
+      "description": "Avropanın mərkəzində yerləşən inkişaf etmiş ölkə.",
+      "religion": "Xristianlıq"
     },
     {
-      "id": "4",
-      "title": "Avatar",
-      "genre": "fantasy",
-      "releaseYear": 2009,
-      "poster": "https://opis-cdn.tinkoffjournal.ru/mercury/avatar-way-to-imax-inxp6b3g.ubzujz..png",
-      "desc": "A marine on an alien planet becomes torn between following orders and protecting a new world.",
-      "cast": [
-        {
-          "id": 301,
-          "fullName": "Sam Worthington",
-          "age": "33",
-          "country": "Australia"
-        },
-        {
-          "id": 302,
-          "fullName": "Zoe Saldana",
-          "age": "31",
-          "country": "USA"
-        }
-      ]
+      "id": 4,
+      "name": "Fransa",
+      "population": 65426179,
+      "flagImg": "https://avatars.mds.yandex.net/i?id=cad8d0502691d37e91b7025df5df6dfc_l-4500670-images-thumbs&n=13",
+      "capital": "Paris",
+      "description": "Avropa qitəsində yerləşən tarixi ölkə.",
+      "religion": "Xristianlıq"
     },
     {
-      "id": "5",
-      "title": "The Dark Knight",
-      "genre": "action",
-      "releaseYear": 2008,
-      "poster": "https://yandex-images.clstorage.net/9amC8K401/d8202e25/IPBpzY-zkwci7yb6m11dZZ4oiI9YlwMsAWs4OVoGwbOHvz1i_q0OjVTfnEquhaKW-MEXoTUn1iexxg7YerQNmMXkjNla5zcHEq-33gqceVSe-Fy_mfInzEWeGJlaY6cAYP0fZFlbTAo2eOiv_jCX90xFY4ez9rTydFEOPlnluSyQUWk8n2PDs4Afdy9InyzErhscvVlVdx23Obkt_cY0ItDeL2f7uCwq1ftabU1x5bQ55BPlU2DmgIVSTh4ZhintQCE4TL7goBDiz6VtO5-cJY45vy8Ytqe_B8oorG1EFfNAbh8F2chd2eYY-KytoPaU6mYidLEztmL3Ic6-WxWZD8Jx6P1ekeKRkK0Xr0tP7VTMSzzc2Gc278XqK_3t97fR8m09t3vbXgqk-Kh9fvKnNBp0M4VyoGQz9CEcXSrGmlzis6lOjTHRAQEcZdwIPY8mrooPDPpnZY7WyXgcD1fmcgLfX1UZeiw45IiITu4gJUZLBXIW8EJGAoRxjn1IxVnt8XFbn_8D8UFgndZf-fwMlT9rr14olvXsdMvoXf5HpEKCPE3lCjnsavTK2VydUbVHqacTtRLC19KUMQ-dukSbLsFBaexO49CjkRz3DRrsTsTcuZz-uZSGnvb7yBztF7ZAkL5ttitZD5iWulic7bBF5Wm3EZQiYJViJiKcvGhmiS7QQIlfzWEggVE8NN4J3Y1FDsgevUlklM-V6PjtDde0kWBtHQdrOMw5Nmg5X9yA5qSqtrDnAIMW8AajLB_Z1am8ghP7z-9yo0PibESveG8tpuyqPF14JHbuNLj7XO7mJ_Ch7J9lSti_6SaK671eIkTmCNZx1nFSVQHGwjytKjXKDNFCWJ3s8tMiQ68G3wutzecfCfze-NVlPAQ6KyxtVhdSAD6cFulq_5qEiyvNfjOnV6umw4dwYkSil9As_HvEuVyQgHsMDIPi4TMORR4avm4nrOvv_siXx5xmy4iM3FUXY",
-      "desc": "Batman battles the Joker, who seeks to create chaos in Gotham City.",
-      "cast": [
-        {
-          "id": 401,
-          "fullName": "Christian Bale",
-          "age": "34",
-          "country": "UK"
-        },
-        {
-          "id": 402,
-          "fullName": "Heath Ledger",
-          "age": "28",
-          "country": "Australia"
-        }
-      ]
+      "id": 5,
+      "name": "Yaponiya",
+      "population": 125960000,
+      "flagImg": "https://yandex-images.clstorage.net/D1f0F0365/fdb7dc81S/O3zjmGoYuNszUhtRoL-3SmdWI52x86piaotZ9ez8Uvt49qVnZHFUD38_Zy-ooMxE0fIalERtn2CO15Hbu3fFO3ZtopUnEcHHM0ZKfYmP33onAxPovaaiBnqWPcX1QKsimSM4luDZ0fPXTjpG3dXNcd2q9zwIYFapL8JUr0ueQIaLAKvozngpc6_-WkHUG8PuQ18DHXE2StfSM1w8IWwTglFz8Obo0a0P_y7arpUdYH3JJht5kFjC2VseRG8vrizCr-DTWKa0zXPv8pbBrA9fcvvvcz09PkYDUhsgUDUsczrBcxx6vLUNa_N2tq4tVSSNITIDgYRg5h17uoC_h5oQpv_MB1wyRClHo4pOLZRTW2rDlxMRfUZ2Sx7zbLzZWHP6uRdYDiSZKW_Pfu6-eR04GdlWU1Es3NqVl8JsS_MuzLoL8Kd4ZjhBS8tmsqVkc1Nyq7v_EQX-3tdy80wgKdwDCtWv_PKU0VVfNwoO8v3dkN05GoMR3ByONXceNOfrauQOh-yv3CbIcf-fBm7hrDfrhsenK60VGtr7OiPEGAn822Kta6ASiGlVf0vmknLt4bAZffoH9YAYkhX_XvjbL04k0jOga5QKdPEjC-7i_Qz3x9ZT16cpcZJy73aX9Ix1GIeSqYuE-ph5Jf_HjupeSXmA7d3208XAwAIVb97wy-NqpE77qP_sVhxFz8sGbmHQdzNCm9M76bGa3ncaayikaWwPMqFrmLKMdd3zP3qiJnUJIMU5-lNpGCCqeRdeNBdXLmS2c6wziEZcfUdL8g7NLGPvaiNnx8VpSoIHmm_wZPmAk86Vp3CCGHnVi6dirq7lqbABCTIT5YT86jWrFhRb_0JA-qtET2wyHB2vZ0r6dchn2_Y7m0OZhY5yQ6rPhEgBoJsWMYv0NkDFWetTworq1cWgdY3mX3EofBopWx6MMxuupLb3DOOMekztJzeK9sFoG1t2v3-z-TWWdlcKp2iMEeSI",
+      "capital": "Tokio",
+      "description": "Şərqi Asiyada yerləşən ada dövləti.",
+      "religion": "Şintoizm və Buddizm"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "fullName": "Elvin Məmmədov",
+      "email": "elvin@example.com",
+      "title": "Sorğu haqqında",
+      "message": "Ölkələrin siyahısını necə əldə edə bilərəm?",
+      "isRead": false
     },
     {
-      "id": "6",
-      "title": "https://avatars.mds.yandex.net/i?id=2d32536d249822356b69d80e1d2062f9_l-5222233-images-thumbs&n=13",
-      "genre": "fantasy",
-      "releaseYear": 2001,
-      "poster": "https://i.example.com/lotr.jpg",
-      "desc": "A young hobbit sets out on a journey to destroy a powerful ring.",
-      "cast": [
-        {
-          "id": 501,
-          "fullName": "Elijah Wood",
-          "age": "20",
-          "country": "USA"
-        },
-        {
-          "id": 502,
-          "fullName": "Ian McKellen",
-          "age": "62",
-          "country": "UK"
-        }
-      ]
+      "id": 2,
+      "fullName": "Aysel Əliyeva",
+      "email": "aysel@example.com",
+      "title": "Şikayət",
+      "message": "Sistemdə xətalar müşahidə etdim.",
+      "isRead": false
     },
     {
-      "id": "7",
-      "title": "Interstellar",
-      "genre": "sci-fi",
-      "releaseYear": 2014,
-      "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/f9855348-5d09-43fc-b448-9d38b7fac7ab/1280x1280",
-      "desc": "A team of explorers travels through a wormhole in search of a new home for humanity.",
-      "cast": [
-        {
-          "id": 601,
-          "fullName": "Matthew McConaughey",
-          "age": "44",
-          "country": "USA"
-        },
-        {
-          "id": 602,
-          "fullName": "Anne Hathaway",
-          "age": "31",
-          "country": "USA"
-        }
-      ]
+      "id": 3,
+      "fullName": "Rəşad Quliyev",
+      "email": "reshad@example.com",
+      "title": "Məlumat tələb olunur",
+      "message": "Yeni ölkə əlavə etmək olar mı?",
+      "isRead": true
     },
     {
-      "id": "8",
-      "title": "Pulp Fiction",
-      "genre": "crime",
-      "releaseYear": 1994,
-      "poster": "https://avatars.mds.yandex.net/i?id=07ab4d0f50a2cc89ef390881f368dd8d45f844dc-5360050-images-thumbs&n=13",
-      "desc": "Interconnected stories of crime and redemption.",
-      "cast": [
-        {
-          "id": 701,
-          "fullName": "John Travolta",
-          "age": "40",
-          "country": "USA"
-        },
-        {
-          "id": 702,
-          "fullName": "Samuel L. Jackson",
-          "age": "45",
-          "country": "USA"
-        }
-      ]
+      "id": 4,
+      "fullName": "Leyla Məmmədli",
+      "email": "leyla@example.com",
+      "title": "Təşəkkür",
+      "message": "Sistem çox yaxşı işləyir, təşəkkür edirəm!",
+      "isRead": true
     },
     {
-      "id": "9",
-      "title": "Forrest Gump",
-      "genre": "drama",
-      "releaseYear": 1994,
-      "poster": "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65465cf2e2f4081ea9491d0d_65465d85c25247659e32f920/scale_1200",
-      "desc": "The life journey of a kind and simple man who witnesses key historical events.",
-      "cast": [
-        {
-          "id": 801,
-          "fullName": "Tom Hanks",
-          "age": "38",
-          "country": "USA"
-        }
-      ]
-    },
-    {
-      "id": "10",
-      "title": "Gladiator",
-      "genre": "historical",
-      "releaseYear": 2000,
-      "poster": "https://avatars.mds.yandex.net/i?id=bfe4959e0cd3cbfc20d2150eac17fa6f_l-5292718-images-thumbs&n=13",
-      "desc": "A Roman general seeks vengeance against the corrupt emperor who betrayed him.",
-      "cast": [
-        {
-          "id": 901,
-          "fullName": "Russell Crowe",
-          "age": "36",
-          "country": "Australia"
-        },
-        {
-          "id": 902,
-          "fullName": "Joaquin Phoenix",
-          "age": "26",
-          "country": "USA"
-        }
-      ]
+      "id": 5,
+      "fullName": "Orxan Hüseynov",
+      "email": "orxan@example.com",
+      "title": "Təklif",
+      "message": "Sistemi mobil tətbiq olaraq da təqdim edin.",
+      "isRead": false
     }
   ]
 }
