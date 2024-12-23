@@ -1,91 +1,81 @@
 {
-  "countries": [
+  "sliders": [
     {
       "id": 1,
-      "name": "Azərbaycan",
-      "population": 10139177,
-      "flagImg": "https://yandex-images.clstorage.net/D1f0F0365/fdb7dc81S/O3zjmGoYuNszUhtRoL-3SmdWI52x86piaotZ9LzlH6oYz9w7eHQpR38iKz-B0OkVgfdGiRx83jHS_43Du3fFO35tvok7GcHHM0ZKfYmP33onAxPovaaiBnqWPcX1QKsimSM4luDZ0fPXTjpG3dXNcd2q9zwIYFapL8JUr0ueQIaLAKvozngpc6_-WkHUG8PuQ18DHXE2StfSM1w8IWwTglFz8Obo0a0P_y7arpUdYH3JJht5kFjC2VseRG8vrizCr-DTWKa0zXPv8pbBrA9fcvvvcz09PkYDUhsgUDUsczrBcxx6vLUNa_N2tq4tVSSNITIDgYRg5h17uoC_h5oQpv_MB1wyRClHo4pOLZRTW2rDlxMRfUZ2Sx7zbLzZWHP6uRdYDiSZKW_Pfu6-eR04GdlWU1Es3NqVl8JsS_MuzLoL8Kd4ZjhBS8tmsqVkc1Nyq7v_EQX-3tdy80wgKdwDCtWv_PKU0VVfNwoO8v3dkN05GoMR3ByONXceNOfrauQOh-yv3CbIcf-fBm7hrDfrhsenK60VGtr7OiPEGAn822Kta6ASiGlVf0vmknLt4bAZffoH9YAYkhX_XvjbL04k0jOga5QKdPEjC-7i_Qz3x9ZT16cpcZJy73aX9Ix1GIeSqYuE-ph5Jf_HjupeSXmA7d3208XAwAIVb97wy-NqpE77qP_sVhxFz8sGbmHQdzNCm9M76bGa3ncaayikaWwPMqFrmLKMdd3zP3qiJnUJIMU5-lNpGCCqeRdeNBdXLmS2c6wziEZcfUdL8g7NLGPvaiNnx8VpSoIHmm_wZPmAk86Vp3CCGHnVi6dirq7lqbABCTIT5YT86jWrFhRb_0JA-qtET2wyHB2vZ0r6dchn2_Y7m0OZhY5yQ6rPhEgBoJsWMYv0NkDFWetTworq1cWgdY3mX3EofBopWx6MMxuupLb3DOOMekztJzeK9sFoG1t2v3-z-TWWdlcKp2iMEeSI",
-      "capital": "Bakı",
-      "description": "Qafqaz regionunda yerləşən ölkə.",
-      "religion": "İslam"
+      "title": "Beautiful Persian Cats",
+      "url": "https://avatars.mds.yandex.net/i?id=93a0e70fe2e93d095378685a1590a8e7_l-5221549-images-thumbs&n=13"
     },
     {
       "id": 2,
-      "name": "Türkiyə",
-      "population": 84339067,
-      "flagImg": "https://avatars.mds.yandex.net/i?id=9176f4dd5a254ee228b02cf357a8d2dc_l-4468364-images-thumbs&n=13",
-      "capital": "Ankara",
-      "description": "Avropa və Asiya qitələrində yerləşən ölkə.",
-      "religion": "İslam"
+      "title": "Adorable Golden Retrievers",
+      "url": "https://avatars.mds.yandex.net/i?id=7551da6f458e2ced82a73dac54500cf5_l-5211644-images-thumbs&n=13"
     },
     {
       "id": 3,
-      "name": "Almaniya",
-      "population": 83166711,
-      "flagImg": "https://avatars.dzeninfra.ru/get-zen_doc/9835822/pub_64be2502dd03bc65717fbb59_64be250add03bc65717fc04a/scale_1200",
-      "capital": "Berlin",
-      "description": "Avropanın mərkəzində yerləşən inkişaf etmiş ölkə.",
-      "religion": "Xristianlıq"
+      "title": "Playful Parrots",
+      "url": "https://avatars.mds.yandex.net/i?id=624a5173ba5885de19c80d2faf08ea05_l-5341800-images-thumbs&n=13"
     },
     {
       "id": 4,
-      "name": "Fransa",
-      "population": 65426179,
-      "flagImg": "https://avatars.mds.yandex.net/i?id=cad8d0502691d37e91b7025df5df6dfc_l-4500670-images-thumbs&n=13",
-      "capital": "Paris",
-      "description": "Avropa qitəsində yerləşən tarixi ölkə.",
-      "religion": "Xristianlıq"
+      "title": "Exotic Tropical Fishes",
+      "url": "https://i.pinimg.com/originals/a3/ab/ce/a3abce927bc65638100459cd8ceafba5.jpg"
     },
     {
       "id": 5,
-      "name": "Yaponiya",
-      "population": 125960000,
-      "flagImg": "https://yandex-images.clstorage.net/D1f0F0365/fdb7dc81S/O3zjmGoYuNszUhtRoL-3SmdWI52x86piaotZ9ez8Uvt49qVnZHFUD38_Zy-ooMxE0fIalERtn2CO15Hbu3fFO3ZtopUnEcHHM0ZKfYmP33onAxPovaaiBnqWPcX1QKsimSM4luDZ0fPXTjpG3dXNcd2q9zwIYFapL8JUr0ueQIaLAKvozngpc6_-WkHUG8PuQ18DHXE2StfSM1w8IWwTglFz8Obo0a0P_y7arpUdYH3JJht5kFjC2VseRG8vrizCr-DTWKa0zXPv8pbBrA9fcvvvcz09PkYDUhsgUDUsczrBcxx6vLUNa_N2tq4tVSSNITIDgYRg5h17uoC_h5oQpv_MB1wyRClHo4pOLZRTW2rDlxMRfUZ2Sx7zbLzZWHP6uRdYDiSZKW_Pfu6-eR04GdlWU1Es3NqVl8JsS_MuzLoL8Kd4ZjhBS8tmsqVkc1Nyq7v_EQX-3tdy80wgKdwDCtWv_PKU0VVfNwoO8v3dkN05GoMR3ByONXceNOfrauQOh-yv3CbIcf-fBm7hrDfrhsenK60VGtr7OiPEGAn822Kta6ASiGlVf0vmknLt4bAZffoH9YAYkhX_XvjbL04k0jOga5QKdPEjC-7i_Qz3x9ZT16cpcZJy73aX9Ix1GIeSqYuE-ph5Jf_HjupeSXmA7d3208XAwAIVb97wy-NqpE77qP_sVhxFz8sGbmHQdzNCm9M76bGa3ncaayikaWwPMqFrmLKMdd3zP3qiJnUJIMU5-lNpGCCqeRdeNBdXLmS2c6wziEZcfUdL8g7NLGPvaiNnx8VpSoIHmm_wZPmAk86Vp3CCGHnVi6dirq7lqbABCTIT5YT86jWrFhRb_0JA-qtET2wyHB2vZ0r6dchn2_Y7m0OZhY5yQ6rPhEgBoJsWMYv0NkDFWetTworq1cWgdY3mX3EofBopWx6MMxuupLb3DOOMekztJzeK9sFoG1t2v3-z-TWWdlcKp2iMEeSI",
-      "capital": "Tokio",
-      "description": "Şərqi Asiyada yerləşən ada dövləti.",
-      "religion": "Şintoizm və Buddizm"
+      "title": "Energetic Siberian Huskies",
+      "url": "https://i.pinimg.com/originals/c8/51/1c/c8511c866fd327b3224d85fc4924e41b.jpg"
     }
   ],
-  "messages": [
+  "animals": [
     {
       "id": 1,
-      "fullName": "Elvin Məmmədov",
-      "email": "elvin@example.com",
-      "title": "Sorğu haqqında",
-      "message": "Ölkələrin siyahısını necə əldə edə bilərəm?",
-      "isRead": false
+      "name": "Simba",
+      "animalType": "Cat",
+      "breed": "Persian",
+      "age": 2,
+      "weight": "4 kg",
+      "owner": "John Doe",
+      "ImageURL": "https://i.ytimg.com/vi/xJnmtpwzfrA/maxresdefault.jpg"
     },
     {
       "id": 2,
-      "fullName": "Aysel Əliyeva",
-      "email": "aysel@example.com",
-      "title": "Şikayət",
-      "message": "Sistemdə xətalar müşahidə etdim.",
-      "isRead": false
+      "name": "Max",
+      "animalType": "Dog",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "weight": "30 kg",
+      "owner": "Alice Smith",
+      "ImageURL": "https://yandex-images.clstorage.net/4q8aAl218/101353IS/4w8U9oe8gkxHieBoxvpoxRO8HX_x3-SgVdwzWd7UBk_3snlu3AHjtYC86vfOf7T3LWLnOdxRLrWWQw_qaPviMwYbAWLC2JZ8d8lxTFc7TPQTbMlPMLrAQBEpE_nbgWWpkCXuHXuyhEK3ey5y69rh5pnToz8q0GvwESIJ2qloBqUTfWXkpuzyGAeagD-G-_mnky_5PrEMYGJQDBI9rEfG-XO27J8aUIQw15sdkHo4MzV_oOK-qLco4_NDecrpOxYlAgy3xXeNcdp1aJEu5-v7VXFOmT1TvHJg0o3zDi7mx1kw1N4NyFF3o-bpvfO4GmE33kHw_JmnywARo2mIKWg2VzFuFrbnHoGI9CqgDsV4imfT34mugf-Qw2Jd4489pTT7MiT839gzt0IEyszz20pxpH-gsr6LhUsR48AL-1qpxZcgjtTFRZ7hqjZYo5x36KlUA6_LjgM80RFSnoAszIR3-EOm7G54ISYRlVsdICkIcDVfQ9JeiHVq4UIR6Pspaga3kS1X5FTv8umXqcINFnhoVWNN2d6SLZMQML2AXv2mlSnhVR8OOsOW8iZ4X_K4WSE3jnJyPFlm2ROxc6oKS3vGR7JcVtaFD7GotYiSXlR5eGZDbytPw_5i0OCPwe8tN2bbURcMX5lShOBG6KyxaysCt44BAw9aJAjD06Jo6FhKtFThvMaVN-8QGnUrU6-maAmGA03o35Ot0HGCHcEvTFbFeOD03p_JksXT9prOolna84ZfAQA8WAdJUCFBmWrKm8VFcW8np3fvAPgUO-ANJOo4VcJO2z9hzLKg4U5wvWyE9_gida0v-fPmANRqzpNbGLMVL-HjXKhVGrPzEJgruosWxZGNdWVH7ZNIx0rh_lZ5eoUR3VlsML8xUYON0h-M1VQZUaUdvcgCBbC2mX8DWQjB9I-hEV_JFzkAg6BYOwvJB2ez3BanpW4jmaV7YQ2k6rsmwV-q78PfMWAC7bKPHZYWY"
     },
     {
       "id": 3,
-      "fullName": "Rəşad Quliyev",
-      "email": "reshad@example.com",
-      "title": "Məlumat tələb olunur",
-      "message": "Yeni ölkə əlavə etmək olar mı?",
-      "isRead": true
+      "name": "Polly",
+      "animalType": "Bird",
+      "breed": "Macaw Parrot",
+      "age": 5,
+      "weight": "1.5 kg",
+      "owner": "Robert Johnson",
+      "ImageURL": "https://avatars.mds.yandex.net/i?id=8cc80a57ebee6a996e19f8b42df1dbc505eb666c-4628413-images-thumbs&n=13"
     },
     {
       "id": 4,
-      "fullName": "Leyla Məmmədli",
-      "email": "leyla@example.com",
-      "title": "Təşəkkür",
-      "message": "Sistem çox yaxşı işləyir, təşəkkür edirəm!",
-      "isRead": true
+      "name": "Nemo",
+      "animalType": "Fish",
+      "breed": "Clownfish",
+      "age": 1,
+      "weight": "200 g",
+      "owner": "Susan Lee",
+      "ImageURL": "https://yandex-images.clstorage.net/4q8aAl218/101353Zn/Ul910mNZU2nHSOFNBl6Y9RLZeA8BbuABRMxDTUpkJgsm5y0-GXVTtfBs6pfuPlEnzUFy_JxB7uVGpm9fDp4Tc3abceLiKKZsR_ihDFOaiQXDnmptA5yDojMOMW6cdcZKgnetumhg9SMx6d8g6imxJX4SwWy6NWiBkmJ6avgqRUeCn_YnBc0C2CWZk8wH21mHgH06jpCeAcPRDkMOfEYk22ClflwbIXShVqrMwotZoWUtAkF9y-dJUPPhuBgKO1Qmkp0ExWStATqVi5FOhjpqBSF8ms3yrJMR0P3QPw7mRxlC93z9-jM2kEZJLyBrSeOlfiIzTqlGOsBgEeqZSAp0BAHsNmf1vZLo1mky_lYq6xZijzjPAo5BAbI9Md0tl0d6EufvXBtxdIJkyT7SCCuQ1r_R819JhEli4HHIWzoJ5raRzwW3hf-yahUo4M6VSUjnQ8w7voCe8KGgrGJMvEaUiFDmfnz4EZSBlOjOc9nIkKV8EtPu6gdoc5Fii_rLaHfXAQ4E12ft4vsEauGstkk61mEu6hxzbZDjQhyB_58ERhkBt3ytybH2UIdbPIC7imHHbdIjzZsGWqJxIcrY6jgklQAeN_dFH3Oq15shfIQIiwbw3RisMX7BQNMOk58P9wXKc5T8rbrAxVPFiuziakiD1FygMJ57lhkQkYB4GEn51WcRb9e3Z9zj-oQpgB4WCEtnkX67HdKsARATT6AvfZUW-IJlzXy6w_ZR5st_EIm5AUaN0SEOqHcrUJGQmnlZSnflk14EdmTvAwjlS1F9RbnZR0NMO99T37EgcmxzDY2VJ_pAJV4MWiCWobSYnMLYuEA2nQKh7kol6WCTAyqqKEuElwAc1KX3bVBZlsigH4Ybe6cS79qsg28jEYOPw29-JLf4UFe_rBrSlcD2uy-yaHhQh98TA8wbRiuCELP7yBnLd2WT3Xd1dZ7TqvbIkZ7me-s2Ua2o77PuAhJjDnIfn8QH0"
     },
     {
       "id": 5,
-      "fullName": "Orxan Hüseynov",
-      "email": "orxan@example.com",
-      "title": "Təklif",
-      "message": "Sistemi mobil tətbiq olaraq da təqdim edin.",
-      "isRead": false
+      "name": "Bella",
+      "animalType": "Dog",
+      "breed": "Siberian Husky",
+      "age": 4,
+      "weight": "25 kg",
+      "owner": "Mark Evans",
+      "ImageURL": "https://dogstodaymagazine.co.uk/wp-content/uploads/2021/11/204277780_4312668138794183_4961073183292397386_n-1024x577.jpeg"
     }
   ]
 }
