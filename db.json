@@ -1,81 +1,197 @@
 {
-  "sliders": [
+  "users": [
     {
-      "id": 1,
-      "title": "Beautiful Persian Cats",
-      "url": "https://avatars.mds.yandex.net/i?id=93a0e70fe2e93d095378685a1590a8e7_l-5221549-images-thumbs&n=13"
+      "id": "u1",
+      "fullName": "John Doe",
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Programming",
+      "bio": "Passionate about teaching math and programming.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe"
+      }
     },
     {
-      "id": 2,
-      "title": "Adorable Golden Retrievers",
-      "url": "https://avatars.mds.yandex.net/i?id=7551da6f458e2ced82a73dac54500cf5_l-5211644-images-thumbs&n=13"
+      "id": "u2",
+      "fullName": "Jane Smith",
+      "username": "janesmith",
+      "email": "jane.smith@example.com",
+      "password": "securepass",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "IT",
+      "grades": [
+        {
+          "taskId": "t1",
+          "grade": 85
+        }
+      ],
+      "overallGrade": 87
     },
     {
-      "id": 3,
-      "title": "Playful Parrots",
-      "url": "https://avatars.mds.yandex.net/i?id=624a5173ba5885de19c80d2faf08ea05_l-5341800-images-thumbs&n=13"
-    },
-    {
-      "id": 4,
-      "title": "Exotic Tropical Fishes",
-      "url": "https://i.pinimg.com/originals/a3/ab/ce/a3abce927bc65638100459cd8ceafba5.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Energetic Siberian Huskies",
-      "url": "https://i.pinimg.com/originals/c8/51/1c/c8511c866fd327b3224d85fc4924e41b.jpg"
+      "id": "u3",
+      "fullName": "Michael Johnson",
+      "username": "michaeljohnson",
+      "email": "michael.johnson@example.com",
+      "password": "securepass2",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Mathematics",
+      "grades": [
+        {
+          "taskId": "t1",
+          "grade": 92
+        }
+      ],
+      "overallGrade": 90
     }
   ],
-  "animals": [
+  "classes": [
     {
-      "id": 1,
-      "name": "Simba",
-      "animalType": "Cat",
-      "breed": "Persian",
-      "age": 2,
-      "weight": "4 kg",
-      "owner": "John Doe",
-      "ImageURL": "https://i.ytimg.com/vi/xJnmtpwzfrA/maxresdefault.jpg"
+      "id": "c1",
+      "name": "Algebra Basics",
+      "teacherId": "u1",
+      "topics": ["Linear Equations", "Quadratic Equations"],
+      "major": "Programming",
+      "studentIds": ["u2", "u3"],
+      "schedule": [
+        { "day": "Monday", "time": "10:00 - 11:30" },
+        { "day": "Wednesday", "time": "10:00 - 11:30" }
+      ]
     },
     {
-      "id": 2,
-      "name": "Max",
-      "animalType": "Dog",
-      "breed": "Golden Retriever",
-      "age": 3,
-      "weight": "30 kg",
-      "owner": "Alice Smith",
-      "ImageURL": "https://yandex-images.clstorage.net/4q8aAl218/101353IS/4w8U9oe8gkxHieBoxvpoxRO8HX_x3-SgVdwzWd7UBk_3snlu3AHjtYC86vfOf7T3LWLnOdxRLrWWQw_qaPviMwYbAWLC2JZ8d8lxTFc7TPQTbMlPMLrAQBEpE_nbgWWpkCXuHXuyhEK3ey5y69rh5pnToz8q0GvwESIJ2qloBqUTfWXkpuzyGAeagD-G-_mnky_5PrEMYGJQDBI9rEfG-XO27J8aUIQw15sdkHo4MzV_oOK-qLco4_NDecrpOxYlAgy3xXeNcdp1aJEu5-v7VXFOmT1TvHJg0o3zDi7mx1kw1N4NyFF3o-bpvfO4GmE33kHw_JmnywARo2mIKWg2VzFuFrbnHoGI9CqgDsV4imfT34mugf-Qw2Jd4489pTT7MiT839gzt0IEyszz20pxpH-gsr6LhUsR48AL-1qpxZcgjtTFRZ7hqjZYo5x36KlUA6_LjgM80RFSnoAszIR3-EOm7G54ISYRlVsdICkIcDVfQ9JeiHVq4UIR6Pspaga3kS1X5FTv8umXqcINFnhoVWNN2d6SLZMQML2AXv2mlSnhVR8OOsOW8iZ4X_K4WSE3jnJyPFlm2ROxc6oKS3vGR7JcVtaFD7GotYiSXlR5eGZDbytPw_5i0OCPwe8tN2bbURcMX5lShOBG6KyxaysCt44BAw9aJAjD06Jo6FhKtFThvMaVN-8QGnUrU6-maAmGA03o35Ot0HGCHcEvTFbFeOD03p_JksXT9prOolna84ZfAQA8WAdJUCFBmWrKm8VFcW8np3fvAPgUO-ANJOo4VcJO2z9hzLKg4U5wvWyE9_gida0v-fPmANRqzpNbGLMVL-HjXKhVGrPzEJgruosWxZGNdWVH7ZNIx0rh_lZ5eoUR3VlsML8xUYON0h-M1VQZUaUdvcgCBbC2mX8DWQjB9I-hEV_JFzkAg6BYOwvJB2ez3BanpW4jmaV7YQ2k6rsmwV-q78PfMWAC7bKPHZYWY"
+      "id": "c2",
+      "name": "Calculus 101",
+      "teacherId": "u1",
+      "topics": ["Limits", "Derivatives"],
+      "major": "Mathematics",
+      "studentIds": ["u3"],
+      "schedule": [
+        { "day": "Tuesday", "time": "14:00 - 15:30" },
+        { "day": "Thursday", "time": "14:00 - 15:30" }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "classId": "c1",
+      "title": "Linear Equations Assignment",
+      "description": "Solve 10 linear equations.",
+      "topic": "Linear Equations",
+      "deadline": "2024-01-20T23:59:59Z",
+      "createdAt": "2024-01-10T09:00:00Z",
+      "teacherId": "u1",
+      "assignments": ["a1", "a2"],
+      "completionRate": 50
     },
     {
-      "id": 3,
-      "name": "Polly",
-      "animalType": "Bird",
-      "breed": "Macaw Parrot",
-      "age": 5,
-      "weight": "1.5 kg",
-      "owner": "Robert Johnson",
-      "ImageURL": "https://avatars.mds.yandex.net/i?id=8cc80a57ebee6a996e19f8b42df1dbc505eb666c-4628413-images-thumbs&n=13"
+      "id": "t2",
+      "classId": "c2",
+      "title": "Calculus Assignment",
+      "description": "Solve 5 derivative problems.",
+      "topic": "Derivatives",
+      "deadline": "2024-02-10T23:59:59Z",
+      "createdAt": "2024-01-20T09:00:00Z",
+      "teacherId": "u1",
+      "assignments": ["a3"],
+      "completionRate": 0
+    }
+  ],
+  "assignments": [
+    {
+      "id": "a1",
+      "taskId": "t1",
+      "studentId": "u2",
+      "url": "https://example.com/assignment1.pdf",
+      "assignDate": "2024-01-15T10:00:00Z",
+      "status": "submitted",
+      "feedback": "Great effort! Improve presentation next time."
     },
     {
-      "id": 4,
-      "name": "Nemo",
-      "animalType": "Fish",
-      "breed": "Clownfish",
-      "age": 1,
-      "weight": "200 g",
-      "owner": "Susan Lee",
-      "ImageURL": "https://yandex-images.clstorage.net/4q8aAl218/101353Zn/Ul910mNZU2nHSOFNBl6Y9RLZeA8BbuABRMxDTUpkJgsm5y0-GXVTtfBs6pfuPlEnzUFy_JxB7uVGpm9fDp4Tc3abceLiKKZsR_ihDFOaiQXDnmptA5yDojMOMW6cdcZKgnetumhg9SMx6d8g6imxJX4SwWy6NWiBkmJ6avgqRUeCn_YnBc0C2CWZk8wH21mHgH06jpCeAcPRDkMOfEYk22ClflwbIXShVqrMwotZoWUtAkF9y-dJUPPhuBgKO1Qmkp0ExWStATqVi5FOhjpqBSF8ms3yrJMR0P3QPw7mRxlC93z9-jM2kEZJLyBrSeOlfiIzTqlGOsBgEeqZSAp0BAHsNmf1vZLo1mky_lYq6xZijzjPAo5BAbI9Md0tl0d6EufvXBtxdIJkyT7SCCuQ1r_R819JhEli4HHIWzoJ5raRzwW3hf-yahUo4M6VSUjnQ8w7voCe8KGgrGJMvEaUiFDmfnz4EZSBlOjOc9nIkKV8EtPu6gdoc5Fii_rLaHfXAQ4E12ft4vsEauGstkk61mEu6hxzbZDjQhyB_58ERhkBt3ytybH2UIdbPIC7imHHbdIjzZsGWqJxIcrY6jgklQAeN_dFH3Oq15shfIQIiwbw3RisMX7BQNMOk58P9wXKc5T8rbrAxVPFiuziakiD1FygMJ57lhkQkYB4GEn51WcRb9e3Z9zj-oQpgB4WCEtnkX67HdKsARATT6AvfZUW-IJlzXy6w_ZR5st_EIm5AUaN0SEOqHcrUJGQmnlZSnflk14EdmTvAwjlS1F9RbnZR0NMO99T37EgcmxzDY2VJ_pAJV4MWiCWobSYnMLYuEA2nQKh7kol6WCTAyqqKEuElwAc1KX3bVBZlsigH4Ybe6cS79qsg28jEYOPw29-JLf4UFe_rBrSlcD2uy-yaHhQh98TA8wbRiuCELP7yBnLd2WT3Xd1dZ7TqvbIkZ7me-s2Ua2o77PuAhJjDnIfn8QH0"
+      "id": "a2",
+      "taskId": "t1",
+      "studentId": "u3",
+      "url": "https://example.com/assignment2.pdf",
+      "assignDate": "2024-01-16T11:00:00Z",
+      "status": "submitted",
+      "feedback": "Excellent work! Keep it up."
     },
     {
-      "id": 5,
-      "name": "Bella",
-      "animalType": "Dog",
-      "breed": "Siberian Husky",
-      "age": 4,
-      "weight": "25 kg",
-      "owner": "Mark Evans",
-      "ImageURL": "https://dogstodaymagazine.co.uk/wp-content/uploads/2021/11/204277780_4312668138794183_4961073183292397386_n-1024x577.jpeg"
+      "id": "a3",
+      "taskId": "t2",
+      "studentId": "u3",
+      "url": "https://example.com/assignment3.pdf",
+      "assignDate": "2024-01-25T12:00:00Z",
+      "status": "submitted",
+      "feedback": "Good job, but work on your step-by-step calculations."
+    }
+  ],
+  "invitations": [
+    {
+      "id": "i1",
+      "classId": "c1",
+      "studentId": "u2",
+      "status": "accepted",
+      "expiresAt": "2024-01-15T23:59:59Z"
+    },
+    {
+      "id": "i2",
+      "classId": "c2",
+      "studentId": "u3",
+      "status": "accepted",
+      "expiresAt": "2024-02-01T23:59:59Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "a1",
+      "classId": "c1",
+      "title": "Midterm Exam Date",
+      "content": "The midterm exam will be held on January 20th.",
+      "date": "2024-01-10T10:00:00Z"
+    },
+    {
+      "id": "a2",
+      "classId": "c2",
+      "title": "First Assignment Deadline",
+      "content": "The first assignment for Calculus is due by February 10th.",
+      "date": "2024-01-20T10:00:00Z"
+    }
+  ],
+  "materials": [
+    {
+      "title": "Linear Equations Notes",
+      "description": "Comprehensive guide to solving linear equations.",
+      "likes": ["u2", "u3"],
+      "comments": [
+        {
+          "id": "c1",
+          "userId": "u2",
+          "content": "This was super helpful!"
+        },
+        {
+          "id": "c2",
+          "userId": "u3",
+          "content": "Clear and easy to understand. Thanks!"
+        }
+      ]
+    },
+    {
+      "title": "Derivative Techniques",
+      "description": "A detailed explanation of how to differentiate functions.",
+      "likes": ["u3"],
+      "comments": [
+        {
+          "id": "c1",
+          "userId": "u3",
+          "content": "Great resource for understanding derivatives!"
+        }
+      ]
     }
   ]
 }
