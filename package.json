@@ -12,6 +12,7 @@
   "author": "Jesper Orb",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "bcryptjs": "^2.4.3",
+    "json-server": "^0.17.1"
   }
 }
