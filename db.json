@@ -1,227 +1,195 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Elvin Abbasov",
-      "email": "elvin.abbasov@example.com",
-      "createdAt": "2024-12-01T08:00:00Z",
-      "profileImage": "user1.jpeg",
-      "linkedinUrl": "url here",
-      "experienceYear": 5,
-      "bio": "Experienced Software Engineer with a passion for web technologies.",
-      "password": "Test123!",
-      "skills": [
-        "JavaScript",
-        "React",
-        "Node.js",
-        "TypeScript"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Sarah Aliyeva",
-      "email": "sarah.aliyeva@example.com",
-      "createdAt": "2024-11-15T08:00:00Z",
-      "profileImage": "user2.jpeg",
-      "linkedinUrl": "url here",
-      "experienceYear": 3,
-      "bio": "Creative and passionate UI/UX designer with experience in building responsive designs.",
-      "password": "Design123!",
-      "skills": [
-        "Adobe XD",
-        "Figma",
-        "HTML",
-        "CSS"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "John Doe",
+      "id": "u1",
+      "fullName": "John Doe",
+      "username": "johndoe",
       "email": "john.doe@example.com",
-      "createdAt": "2024-10-10T09:00:00Z",
-      "profileImage": "user3.jpeg",
-      "linkedinUrl": "url here",
-      "experienceYear": 7,
-      "bio": "Seasoned Backend Developer specializing in Python and cloud technologies.",
-      "password": "Backend123!",
-      "skills": [
-        "Python",
-        "Django",
-        "AWS",
-        "PostgreSQL"
+      "password": "password123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Programming",
+      "bio": "Passionate about teaching math and programming.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe"
+      }
+    },
+    {
+      "id": "u2",
+      "fullName": "Jane Smith",
+      "username": "janesmith",
+      "email": "jane.smith@example.com",
+      "password": "securepass",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "IT",
+      "grades": [
+        {
+          "taskId": "t1",
+          "grade": 85
+        }
+      ],
+      "overallGrade": 87
+    },
+    {
+      "id": "u3",
+      "fullName": "Michael Johnson",
+      "username": "michaeljohnson",
+      "email": "michael.johnson@example.com",
+      "password": "securepass2",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Mathematics",
+      "grades": [
+        {
+          "taskId": "t1",
+          "grade": 92
+        }
+      ],
+      "overallGrade": 90
+    }
+  ],
+  "classes": [
+    {
+      "id": "c1",
+      "name": "Algebra Basics",
+      "teacherId": "u1",
+      "topics": ["Linear Equations", "Quadratic Equations"],
+      "major": "Programming",
+      "studentIds": ["u2", "u3"],
+      "schedule": [
+        { "day": "Monday", "time": "10:00 - 11:30" },
+        { "day": "Wednesday", "time": "10:00 - 11:30" }
       ]
     },
     {
-      "id": 4,
-      "name": "Anna Mammadova",
-      "email": "anna.mammadova@example.com",
-      "createdAt": "2024-11-20T10:30:00Z",
-      "profileImage": "user4.jpeg",
-      "linkedinUrl": "url here",
-      "experienceYear": 2,
-      "bio": "Junior Software Developer with a focus on mobile app development.",
-      "password": "MobileDev123!",
-      "skills": [
-        "Flutter",
-        "Dart",
-        "Android",
-        "iOS"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "David Guliyev",
-      "email": "david.guliyev@example.com",
-      "createdAt": "2024-09-25T11:15:00Z",
-      "profileImage": "user5.jpeg",
-      "linkedinUrl": "url here",
-      "experienceYear": 4,
-      "bio": "Passionate Frontend Developer with expertise in modern JavaScript frameworks.",
-      "password": "Frontend123!",
-      "skills": [
-        "Vue.js",
-        "Angular",
-        "JavaScript",
-        "CSS"
+      "id": "c2",
+      "name": "Calculus 101",
+      "teacherId": "u1",
+      "topics": ["Limits", "Derivatives"],
+      "major": "Mathematics",
+      "studentIds": ["u3"],
+      "schedule": [
+        { "day": "Tuesday", "time": "14:00 - 15:30" },
+        { "day": "Thursday", "time": "14:00 - 15:30" }
       ]
     }
   ],
-  "companies": [
+  "tasks": [
     {
-      "id": 1,
-      "name": "TechNest LLC",
-      "location": "Baku, Azerbaijan",
-      "industry": "IT",
-      "createdAt": "2023-01-15T12:00:00Z",
-      "website": "https://www.technest.az",
-      "password": "Comp123!",
-      "employeesIds": ["1", "2"],
-      "reviews": [
-        {
-          "userId": 1,
-          "comment": "Great company to work with!",
-          "rating": 5
-        },
-        {
-          "userId": 2,
-          "comment": "Friendly environment and innovative projects.",
-          "rating": 4
-        }
-      ]
+      "id": "t1",
+      "classId": "c1",
+      "title": "Linear Equations Assignment",
+      "description": "Solve 10 linear equations.",
+      "topic": "Linear Equations",
+      "deadline": "2024-01-20T23:59:59Z",
+      "createdAt": "2024-01-10T09:00:00Z",
+      "teacherId": "u1",
+      "assignments": ["a1", "a2"],
+      "completionRate": 50
     },
     {
-      "id": 2,
-      "name": "Digital Innovations",
-      "location": "Baku, Azerbaijan",
-      "industry": "Tech",
-      "createdAt": "2023-06-01T12:00:00Z",
-      "website": "https://www.digitalinnovations.az",
-      "password": "Digital123!",
-      "employeesIds": ["3", "4"],
-      "reviews": [
-        {
-          "userId": 3,
-          "comment": "Innovative products and dynamic team.",
-          "rating": 5
-        },
-        {
-          "userId": 4,
-          "comment": "Challenging projects but rewarding experience.",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "InnoTech Solutions",
-      "location": "Baku, Azerbaijan",
-      "industry": "IT",
-      "createdAt": "2022-08-15T14:00:00Z",
-      "website": "https://www.innotechsolutions.az",
-      "password": "Inno123!",
-      "employeesIds": ["5"],
-      "reviews": [
-        {
-          "userId": 5,
-          "comment": "Small team but amazing growth opportunities.",
-          "rating": 4
-        }
-      ]
+      "id": "t2",
+      "classId": "c2",
+      "title": "Calculus Assignment",
+      "description": "Solve 5 derivative problems.",
+      "topic": "Derivatives",
+      "deadline": "2024-02-10T23:59:59Z",
+      "createdAt": "2024-01-20T09:00:00Z",
+      "teacherId": "u1",
+      "assignments": ["a3"],
+      "completionRate": 0
     }
   ],
-  "vacancies": [
+  "assignments": [
     {
-      "id": 1,
-      "title": "Frontend Developer",
-      "companyId": 1,
-      "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
-      "salary": "2000-3000 AZN",
-      "postedAt": "2024-11-30T10:00:00Z",
-      "expiresAt": "2024-12-31T23:59:59Z",
-      "employmentType": "Full-time",
-      "isActive": true,
-      "candidates": [
+      "id": "a1",
+      "taskId": "t1",
+      "studentId": "u2",
+      "url": "https://example.com/assignment1.pdf",
+      "assignDate": "2024-01-15T10:00:00Z",
+      "status": "submitted",
+      "feedback": "Great effort! Improve presentation next time."
+    },
+    {
+      "id": "a2",
+      "taskId": "t1",
+      "studentId": "u3",
+      "url": "https://example.com/assignment2.pdf",
+      "assignDate": "2024-01-16T11:00:00Z",
+      "status": "submitted",
+      "feedback": "Excellent work! Keep it up."
+    },
+    {
+      "id": "a3",
+      "taskId": "t2",
+      "studentId": "u3",
+      "url": "https://example.com/assignment3.pdf",
+      "assignDate": "2024-01-25T12:00:00Z",
+      "status": "submitted",
+      "feedback": "Good job, but work on your step-by-step calculations."
+    }
+  ],
+  "invitations": [
+    {
+      "id": "i1",
+      "classId": "c1",
+      "studentId": "u2",
+      "status": "accepted",
+      "expiresAt": "2024-01-15T23:59:59Z"
+    },
+    {
+      "id": "i2",
+      "classId": "c2",
+      "studentId": "u3",
+      "status": "accepted",
+      "expiresAt": "2024-02-01T23:59:59Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "a1",
+      "classId": "c1",
+      "title": "Midterm Exam Date",
+      "content": "The midterm exam will be held on January 20th.",
+      "date": "2024-01-10T10:00:00Z"
+    },
+    {
+      "id": "a2",
+      "classId": "c2",
+      "title": "First Assignment Deadline",
+      "content": "The first assignment for Calculus is due by February 10th.",
+      "date": "2024-01-20T10:00:00Z"
+    }
+  ],
+  "materials": [
+    {
+      "title": "Linear Equations Notes",
+      "description": "Comprehensive guide to solving linear equations.",
+      "likes": ["u2", "u3"],
+      "comments": [
         {
-          "candidateId": "1",
-          "appliedAt": "2024-12-31T23:59:59Z",
-          "linkedinUrl": "url here",
-          "status": "pending"
+          "id": "c1",
+          "userId": "u2",
+          "content": "This was super helpful!"
         },
         {
-          "candidateId": "2",
-          "appliedAt": "2024-12-31T23:59:59Z",
-          "linkedinUrl": "url here",
-          "status": "accepted"
-        },
-        {
-          "candidateId": "3",
-          "appliedAt": "2024-12-31T23:59:59Z",
-          "linkedinUrl": "url here",
-          "status": "rejected"
+          "id": "c2",
+          "userId": "u3",
+          "content": "Clear and easy to understand. Thanks!"
         }
       ]
     },
     {
-      "id": 2,
-      "title": "Backend Developer",
-      "companyId": 2,
-      "description": "We are looking for a talented Backend Developer skilled in Python and Django.",
-      "salary": "2500-3500 AZN",
-      "postedAt": "2024-11-20T11:00:00Z",
-      "expiresAt": "2024-12-15T23:59:59Z",
-      "employmentType": "Full-time",
-      "isActive": true,
-      "candidates": [
+      "title": "Derivative Techniques",
+      "description": "A detailed explanation of how to differentiate functions.",
+      "likes": ["u3"],
+      "comments": [
         {
-          "candidateId": "3",
-          "appliedAt": "2024-12-01T15:00:00Z",
-          "linkedinUrl": "url here",
-          "status": "pending"
-        },
-        {
-          "candidateId": "4",
-          "appliedAt": "2024-12-02T11:00:00Z",
-          "linkedinUrl": "url here",
-          "status": "accepted"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Mobile Developer",
-      "companyId": 3,
-      "description": "Seeking a skilled Mobile Developer with expertise in Flutter and Dart.",
-      "salary": "2200-2800 AZN",
-      "postedAt": "2024-12-01T09:00:00Z",
-      "expiresAt": "2024-12-30T23:59:59Z",
-      "employmentType": "Full-time",
-      "isActive": true,
-      "candidates": [
-        {
-          "candidateId": "5",
-          "appliedAt": "2024-12-01T10:00:00Z",
-          "linkedinUrl": "url here",
-          "status": "pending"
+          "id": "c1",
+          "userId": "u3",
+          "content": "Great resource for understanding derivatives!"
         }
       ]
     }
