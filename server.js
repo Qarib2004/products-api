@@ -13,6 +13,7 @@ server.post('/users', async (req, res, next) => {
     if (req.body.password) {
       const saltRounds = 10;
       req.body.password = await bcrypt.hash(req.body.password, saltRounds); // Şifreyi hashle
+      console.log(req.body.password);
     }
     next(); // JSON Server'ın varsayılan işlemini devam ettir
   } catch (error) {
